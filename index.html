@@ -1,0 +1,673 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma design landing page</title>
+    <!-- Bootstrap CSS & icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="Assets/CSS/splide.css" rel="stylesheet">
+    <!-- Custom stylesheet-->
+    <link href="Assets/CSS/index.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Page navigation --> 
+        <nav id="page-navbar" class="navbar navbar-light  py-0">
+            <div class="container-md py-3">
+                <a class="navbar-brand" href="#">
+                    <span class="header-logo-span">Mash</span> 
+                    <span class="header-logo-span">Cloud</span>
+                    <span class="header-logo-span"> <div class="feature-dot"></div></span> 
+                </a>
+                <button class="navbar-toggler d-md-none" id="nav-toggler-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav d-none d-md-flex flex-row">
+                    <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> Home </a></li>
+                    <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> About </a></li>
+                    <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> Services </a></li>
+                    <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> Work </a></li>
+                    <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> Team </a></li>
+                    <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> Contact </a></li>
+                    <li class="nav-item mx-2">
+                        <button type="button" class="btn btn-secondary border-0 rounded-0 p-2 btn-nav-link-dp"> 
+                            Let's Connect 
+                        </button>
+                    </li>
+
+                </ul>
+                <div class="d-md-none offcanvas offcanvas-end" style="top:58px;" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-body p-0 d-flex justify-content-center align-items-center">
+                        <ul class="navbar-nav p-0 d-flex justify-content-center align-items-center w-100">
+                            <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href=""> Home </a></li>
+                            <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href=""> About </a></li>
+                            <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href=""> Services </a></li>
+                            <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href="Contact"> Work </a></li>
+                            <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href=""> Team </a></li>
+                            <li class="nav-item m-0 my-2 px-4 d-block w-100"> 
+                                <button class="btn btn-secondary btn-lg border-0 rounded-0 p-2 mb-nav-block-btn" type="button">Let's connect</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav> 
+    <!-- Page navigation --> 
+    
+    <!-- Hero section-->
+    <div class="container-fluid hero-section pb-5">
+        <div class="container hero-text-section mt-0">
+            <h1>
+                The digital 
+                <span class="featured-vector-block d-inline-block ml-5"> <img src="Assets/Images/btn-with-arrow-sm.png" class="responsive-fetured-vector-img"></span>
+                <br />
+                <span class="featured-highlighted-text-block d-inline-block"> Solutions </span>
+                Company
+            </h1>
+            <div class="hero-section-animation-block d-flex justify-content-center align-items-center">
+                <div class="badge c-black" id="badge">
+                    <span class="badge__char">G</span>
+                    <span class="badge__char">E</span>
+                    <span class="badge__char">T</span>
+                    <span class="badge__char"></span>
+                    <span class="badge__char">S</span>
+                    <span class="badge__char">T</span>	
+                    <span class="badge__char">A</span>	
+                    <span class="badge__char">R</span>		
+                    <span class="badge__char">T</span>		
+                    <span class="badge__char">E</span>		
+                    <span class="badge__char">D</span>	
+                    <span class="badge__char"></span>		
+                    <span class="badge__char">W</span>		
+                    <span class="badge__char">I</span>		
+                    <span class="badge__char">T</span>		
+                    <span class="badge__char">H</span>
+                    <span class="badge__char"></span>
+                    <span class="badge__char">M</span>		
+                    <span class="badge__char">A</span>
+                    <span class="badge__char">S</span>
+                    <span class="badge__char">H</span>
+                    <span class="badge__char"></span>
+                    <span class="badge__char">C</span>
+                    <span class="badge__char">L</span>		
+                    <span class="badge__char">O</span>
+                    <span class="badge__char">U</span>		
+                    <span class="badge__char">D</span>
+                    <span class="badge__char"></span>
+                    <span class="badge__char">S</span>
+                    <span class="badge__char">O</span>
+                    <span class="badge__char">F</span>
+                    <span class="badge__char">T</span>		
+                    <span class="badge__char">W</span>
+                    <span class="badge__char">A</span>
+                    <span class="badge__char">R</span>
+                    <span class="badge__char">E</span>
+                    <span class="badge__char"></span>
+                
+                    <img class="badge__emoji" src="Assets/Images/circle-dot.png" alt="Mash Cloud software">
+                </div>
+            </div>
+        </div>
+
+        <div class="container our-work-section">
+            <div class="row">
+                <div class="col-5 pb-5">
+                    <p class="p3">
+                        Elevate your digital experience with Mash Cloud Software, your expert in professional software development.
+                        <img class="responsive_featured_arrow_image mt-4" src="Assets/Images/Arrow-1.png" alt="Mash Cloud software">
+                    </p>
+                    <div class="our-work-text-section d-flex align-items-center mt-3">
+                        <div class="circles-gallery d-flex">
+                            <img src="Assets/Images/random-person-1.jpg" class="circle-gallery-img"/>
+                            <img src="Assets/Images/random-person-2.jpg" class="circle-gallery-img"/>
+                            <img src="Assets/Images/random-person-3.jpg" class="circle-gallery-img"/>
+                            <img src="Assets/Images/random-person-4.jpg" class="circle-gallery-img"/>
+                            <img src="Assets/Images/random-person-5.jpg" class="circle-gallery-img">
+                            <img src="Assets/Images/circle-image.png" class="circle-gallery-img">
+                        </div>
+                        <p class="work_section_clients_count"> 50+ <br /> Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-7 pb-5">
+                    <img class="responsive_featured_working_personnel" src="Assets/Images/working personnel.png" alt="Mash Cloud software">
+                    <div class="display-link-circle d-flex flex-direction-column justify-content-center align-items-center">
+                        <img class="responsive_featured_arrow_image_2 d-block m-0 p-0" src="Assets/Images/Arrow 2.png" alt="Mash Cloud software">
+                        <p class="featured_our_work_link_text d-block m-0 p-0"> Our work </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero section-->
+
+    <!-- Spacer section-->
+      <div class="container-fluid spacer-section pt-5 pb-3">
+        <div class="container spacer-section_in_div py-5"> </div>
+      </div>
+    <!-- Spacer section-->
+
+    <!-- First-text section-->
+      <div class="container-fluid first-text-block pt-5 pb-5">
+        <div class="container py-4 in_div_container">
+            <div class="row">
+                <div class="col-6 first-block">
+                    <b>Introducing <br /> Mash Cloud</b>
+                </div>
+                <div class="col-6 second-block">
+                    <p class="p3">
+                        Mash Cloud software is a <b> professional software development company </b> headquatered in Minnesota (USA), branch office in Mombasa (Kenya).
+                    </p>
+
+                    <p class="p3 pt-5">
+                        We have 18 years in IT experience and strong team of full stack developers, engineers and graphic designers and consultants. We help our clients to achieve unsurpassed quality at all stages of the web, mobile and desktop development by providing multiple time-zone teams and different formats of working (on site, remote, hybrid, etc).  
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5 last-row">
+                <div class="col-6 first-block">
+                    <div class="persona-display d-flex">
+                        <div class="circular_person_badge"></div>
+                        <div class="persona_name_details">
+                            <p class="my-0" > Yahye Abdullahi </p>
+                            <p class="my-0" > Founder & CEO </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 second-block">
+                    <p class="p3">
+                       18 years of IT excellence. Our global team delivers top-notch web, mobile and desktop solutions. Explore innovation with us!  
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4 in_div_second_container">
+            <div class="row py-2">
+                <div class="col-3">
+                    <p> Proudly serving <b>20+ happy clients, fueling success with excellence</b> </p>
+                    <p>20+</p>
+                </div>
+                <div class="col-3">
+                    <p> <b>52 projects,</b> endless success. Exceptional solutions, always delivered.</p>
+                    <p>52</p>
+                </div>
+                <div class="col-3">
+                    <p><b>1400hrs of our unwavering support.</b> Your success, our commitment </p>
+                    <p>1400+</p>
+                </div>
+                <div class="col-3">
+                    <p><b>11 Awesome people.</b> Powering success through collaboration and expertise. </p>
+                    <p>11</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- First-text section-->
+
+    <!-- Second-text section-->
+    <div class="container-fluid second-text-block py-5">
+        <h5 class="featured_heading_text text-center mt-5"> CORE VALUES </h5>
+        <h5 class="featured_heading_text text-center d-block mx-auto"> Our Core Values Illumuinate the Path to Excellence </h5>
+        <div class="container cards-display-section d-flex flex-wrap mt-5 py-3">
+            <div class="core_values_display_card core_values_display_card_1 p-4">
+                <div class="heading-section">
+                    <img class="responsive_core_values_img" src="Assets/Images/core_values_icon_1.png">
+                </div>
+                <div class="text-section">
+                    <h5>Customer Centricity</h5>
+                    <p class="mt-3">
+                        Unwavering commitment to excellence: Drive quality, cost and delivery with customer centricity. Prompt communication for supreme customer delight in IT services and solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="core_values_display_card core_values_display_card_2 p-4">
+                <div class="heading-section">
+                    <img class="responsive_core_values_img" src="Assets/Images/core_values_icon_5.png">
+                </div>
+                <div class="text-section">
+                    <h5>Business Ethics and Transparency</h5>
+                    <p class="mt-3">
+                        To be honest, deddicated, fair, transparent, sincere and open in all our customer transactions
+                    </p>
+                </div>
+            </div>
+            <div class="core_values_display_card core_values_display_card_1 p-4">
+                <div class="heading-section">
+                    <img class="responsive_core_values_img" src="Assets/Images/core_values_icon_1.png">
+                </div>
+                <div class="text-section">
+                    <h5>Customer Centricity</h5>
+                    <p class="mt-3">
+                        Unwavering commitment to excellence: Drive quality, cost and delivery with customer centricity. Prompt communication for supreme customer delight in IT services and solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Second-text section-->
+
+    <!-- Third-text section-->
+     <div class="container-fluid third-text-block py-5">
+        <h5 class="featured_heading_text text-center mt-5"> TARGET CLIENTS </h5>
+        <h5 class="featured_heading_text text-center d-block mx-auto"> Powering diverse sectors with innovation </h5>
+        <div class="container cards-display-section d-flex flex-wrap mt-5 py-3">
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>Education <br /> Sector</p>
+                </div>
+            </div>
+
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>Healthcare <br /> Industry</p>
+                </div>
+            </div>
+
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>Retail <br /> Outlets</p>
+                </div>
+            </div>
+
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>Hospitality <br /> Industry</p>
+                </div>
+            </div>
+
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>Food <br /> Manufacturing</p>
+                </div>
+            </div>
+
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>Entertainment <br /> Industry</p>
+                </div>
+            </div>
+
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>CFSs and <br /> Showrooms</p>
+                </div>
+            </div>
+
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>Chemists and <br /> Pharmacies</p>
+                </div>
+            </div>
+
+            <div class="third_text_block_industry_section d-flex p-2">
+                <div class="third_text_block_industry_section_img_block">
+                    <img class="responsive_featured_industry_img" src="Assets/Images/random-person-1.jpg">
+                </div>
+                <div class="third_text_block_industry_section_text_block d-flex align-items-center p-2">
+                    <p>Fintech <br /> Businesses</p>
+                </div>
+            </div>
+        </div>
+        <div class="container feature-button-display-section d-flex justify-content-center mt-3">
+            <button class="btn btn-lg border rounded-0 feature-call-today-btn p-3" type="button">
+                <i class="bi bi-telephone-fill pr-3"></i> Let's Have a Call Today!
+            </button>
+        </div>
+    </div>
+    <!-- Third-text section-->
+
+    <!-- Fourth-text section-->
+    <div class="container-fluid fourth-text-block py-5">
+        <h5 class="featured_heading_text text-center mt-5"> OUR SERVICES </h5>
+        <h5 class="featured_heading_text text-center d-block mx-auto"> Empowering Kenya's market with essential solutions </h5>
+        <div class="container mt-5 py-3">
+            <div class="row">
+                <div class="col-4">
+                    <h5 class="our-services-featured-heading-text mb-4">E-commerce </h5>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Custom E-commerce </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> B2B E-commerce Solutions</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> B2C E-commerce Solutions</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Mobile Commerce</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Payment Gateway Integration</a>
+                </div>
+                <div class="col-4">
+                    <h5 class="our-services-featured-heading-text mb-4">Web Applications </h5>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Front-End Development </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Back-End Development</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Full-Stack Development </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Content Management Systems</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> API Integration</a>
+                </div>
+                <div class="col-4">
+                    <h5 class="our-services-featured-heading-text mb-4">Mobile Applications </h5>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Cross-Platform App Development </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Hybrid App Development</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Native Apps </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Progressive App Development</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> IOS App Development</a>
+                </div>
+            </div>
+            <div class="container feature-button-display-section d-flex justify-content-center mt-5">
+                <button class="btn btn-lg border rounded-0 our-services-call-today-btn p-3 mt-5" type="button">
+                    <i class="bi bi-telephone-fill pr-3"></i> Let's Talk About Your Project
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Fourth-text section-->
+
+    <!-- Fifth-text section-->
+    <div class="container-fluid fifth-text-block py-5">
+        <div class="container mt-5 py-2">
+            <h5 class="featured_heading_text d-block"> See Our Recent Clients Projects </h5>
+
+            <!-- Splide.js slider -->
+            <section class="section slider__section">
+                <div class="container slider__wrapper">
+                <div class="slider__column splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="Assets/Images/feature-work-template-1.png" alt="Slider" class="responsive-slider-img">
+                                <div class="splide__caption custom_splidejs_cption">
+                                    <p>Fidelen Project Case Study | UI/UX Process</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img src="Assets/Images/feature-work-template-2.png" alt="Slider" class="responsive-slider-img">
+                                <div class="splide__caption custom_splidejs_cption">
+                                    <p>Grab Food Project | Rebranding and UX</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img src="Assets/Images/feature-work-template-3.png" alt="Slider" class="responsive-slider-img">
+                                <div class="splide__caption custom_splidejs_cption">
+                                    <p>Binjav Dev Website UI UX Design Landing Page</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <!-- Splide.js slider -->
+        </div>
+    </div>
+    <!-- Fifth-text section-->
+
+    <!-- sixth-text section-->
+    <div class="container-fluid sixth-text-block py-5">
+        <div class="container mt-5 py-2">
+            <h5 class="featured_heading_text d-block"> See How We Made Our Clients Happy </h5>
+
+            <!-- Splide.js slider -->
+            <section class="section slider__section">
+                <div class="container slider__wrapper">
+                <div id="second-slider" class="slider__column splide">
+                    <div class="splide__track">
+                        <ul class="splide__list" style="height:auto !important;">
+                            <li class="splide__slide">
+                               <div class="row">
+                                    <div class="col-4 pl-2">
+                                        <img src="Assets/Images/testimonial-quotes-1.png" class="responsive-testimonials-feature-quote-img">
+                                    </div> 
+                                    <div class="col-8" > 
+                                        <p class="p3 feature-testimonials-text"> 
+                                            Mash Cloud Software exceeded our expectations! Their innovative solutions transformed our business and the team's expertise and dedication ensured a seamless and successsful collaboration. Truly outstanding!
+                                        </p>
+                                        <p class="p3 feature-testimonials-text-name mt-5 mb-0"> 
+                                            Brooklyn Simmons
+                                        </p>
+                                        <p class="p3 feature-testimonials-text-location"> 
+                                            Brooklyn, New Worek
+                                        </p>
+                                    </div> 
+                               </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="row">
+                                    <div class="col-4" >
+                                        <img src="Assets/Images/testimonial-quotes-1.png" class="responsive-testimonials-feature-quote-img">
+                                    </div> 
+                                    <div class="col-8" > 
+                                        <p class="p3 feature-testimonials-text"> 
+                                            Mash Cloud Software exceeded our expectations! Their innovative solutions transformed our business and the team's expertise and dedication ensured a seamless and successsful collaboration. Truly outstanding!
+                                        </p>
+                                        <p class="p3 feature-testimonials-text-name mt-5 mb-0"> 
+                                            Brooklyn Simmons
+                                        </p>
+                                        <p class="p3 feature-testimonials-text-location"> 
+                                            Brooklyn, New Worek
+                                        </p>
+                                    </div> 
+                               </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <!-- Splide.js slider -->
+        </div>
+    </div>
+    <!-- sixth-text section-->
+
+   <!-- Seventh-text section-->
+    <div class="container-fluid seventh-text-block pt-5 pb-2">
+        <div class="container mt-5 py-2">
+            <h5 class="featured_heading_text d-block"> People Behind Our Great Work </h5>
+
+            <!-- Splide.js slider -->
+            <section class="section slider__section">
+                <div class="container slider__wrapper">
+                <div id="third-slider" class="slider__column splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="Assets/Images/team-member-1.png" alt="Slider" class="responsive-slider-img-type-2">
+                                <div class="splide__caption custom_splidejs_cption">
+                                    <p>Yahye Abdullahi</p>
+                                    <div class="connect-social-links d-flex flex-wrap">
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-facebook"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-twitter-x"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-instagram"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-linkedin"></i> </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img src="Assets/Images/team-member-2.png" alt="Slider" class="responsive-slider-img-type-2">
+                                <div class="splide__caption custom_splidejs_cption">
+                                    <p>Lyneal Carothers</p>
+                                    <div class="connect-social-links d-flex flex-wrap">
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-facebook"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-twitter-x"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-instagram"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-linkedin"></i> </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <img src="Assets/Images/team-member-3.png" alt="Slider" class="responsive-slider-img-type-2">
+                                <div class="splide__caption custom_splidejs_cption">
+                                    <p>Peter Wanje</p>
+                                    <div class="connect-social-links d-flex flex-wrap">
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-facebook"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-twitter-x"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-instagram"></i> </a>
+                                        <a class="text-decoration-none text-dark m-2" href="#"> <i class="bi bi-linkedin"></i> </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <!-- Splide.js slider -->
+        </div>
+    </div>
+    <!-- Seventh-text section-->
+
+    <!-- Eighth-text section-->
+    <div class="container-fluid eighth-text-block pt-0 pb-5">
+        <div class="container mt-5 pt-0 pb-2">
+            <div class="row ">
+                <div class="col-6">
+                    <h5 class="featured_heading_text d-block"> Want to Start A Project? </h5>
+                    <p class="p3 feature-testimonials-text my-4"> 
+                        Ready to launch your project? Join us in tuning ideas into reality with expertise, passion, and collaborative innovation. Let's begin
+                    </p>
+                    <p class="p3 feature-testimonials-text d-flex">
+                        <i class="bi bi-envelope-fill"></i>
+                        <a class="text-secondary" href="#">
+                             info@mashcloudsoftware.com
+                        </a>
+                    </p>
+                </div>
+                <div class="col-6 contact-form-block p-5">
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control p-3" id="name_input">
+                        </div>
+                        <div class="mb-4">
+                          <label for="email" class="form-label">Your Email</label>
+                          <input type="email" class="form-control p-3" id="email_input">
+                        </div>
+                        <div class="mb-4">
+                          <label for="phone" class="form-label">Phone Number</label>
+                          <input type="phone" class="form-control p-3" id="number_input">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Type Message</label>
+                            <textarea class="form-control p-3" id="message_input" rows="6"></textarea>
+                        </div>
+                        <button type="submit" class="display-link-circle-type-two d-flex flex-direction-column justify-content-center align-items-center">
+                            <img class="responsive_featured_arrow_image_2 d-block m-0 p-0" src="Assets/Images/Arrow 2.png" alt="Mash Cloud software">
+                            <p class="featured_our_work_link_text d-block m-0 p-0"> submit </p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Eighth-text section-->
+
+    <!-- Ninth-text section-->
+    <div class="container-fluid nineth-text-block pt-5">
+        <div class="container mt-5 py-2">
+            <div class="row first-row-section py-2">
+                <div class="col-6">
+                    <h5 class="featured_heading_text d-block mb-4"> Keep Up with the latest </h5>
+                    <p class="p3 feature-testimonials-text">  Subscribe to our newsletter to get insightful news and information about Mash Cloud Software. </p>
+                </div>
+                <div class="col-6 p-2 px-5">
+                    <h5 class="featured_heading_text-two d-block">  Stay up to date </h5>
+                    <div class="email-input-block d-flex">
+                        <form class="w-100 d-flex">
+                            <input type="email" class="form-control email-newsletter-form p-3" id="email_input" placeholder="Enter your email">
+                            <button type="submit" class="email-newsletter-form-submit-btn d-flex justify-content-center align-items-center">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row second-row-section py-4">
+                <div class="col-4 d-flex align-items-center py-3">
+                    <div class="icon-display-section d-flex justify-content-center align-items-center mx-3">
+                        <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <div class="phone-numbers-display-section d-flex mx-3">
+                        <p class="my-2"> +254 716 171 748</p>
+                        <p class="my-2"> +254 715 213 991</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center py-3">
+                    <div class="icon-display-section d-flex justify-content-center align-items-center mx-3">
+                        <i class="bi bi-clock-fill"></i>
+                    </div>
+                    <div class="phone-numbers-display-section d-flex mx-3">
+                        <p class="my-2"> Monday - Friday</p>
+                        <p class="my-2"> 9:00AM - 05:00PM</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center py-3">
+                    <div class="icon-display-section d-flex justify-content-center align-items-center mx-3">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <div class="phone-numbers-display-section d-flex mx-3">
+                        <p class="my-2"> Off Moi Avenue,Next to Kadri Corner/Uhuru Gardens,Mombasa, Kenya </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row third-row-section py-3">
+                <div class="col-3 pt-5">
+                    <a class="navbar-brand" href="#">
+                        <span class="header-logo-span">Mash</span> 
+                        <span class="header-logo-span">Cloud</span>
+                        <span class="header-logo-span"> <div class="feature-dot"></div></span> 
+                    </a>
+                    <p class="p3 feature-testimonials-text mt-4">&COPY; 2023 Mash Cloud Software. All Rights Reserved </p>
+                </div>
+                <div class="col-3 pt-5">
+                    <h5 class="our-services-featured-heading-text mb-4"> Quick Links </h5>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Home </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> About us</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Services</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Terms of service </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Privacy policy</a>
+                </div>
+                <div class="col-3 pt-5">
+                    <h5 class="our-services-featured-heading-text mb-4">Services </h5>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> E-commerce(B2B/B2C systems) </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Web Application Development</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Mobile Application Development </a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> Content Management Systems</a>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href=""> API Integration</a>
+                </div>
+                <div class="col-3 pt-5">
+                    <h5 class="our-services-featured-heading-text mb-4">Address </h5>
+                    <a class="our-services-featured-link-text text-decoration-none d-block my-4" href="">  Off Moi Avenue,Next to Kadri Corner/Uhuru Gardens,Mombasa, Kenya </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ninth-text section-->
+
+
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js'></script>
+    <script  src="Assets/JS/splide.js"></script>
+
+
+    <!-- Custom JS-->
+    <script src="Assets/JS/index.js"></script>
+</body>
+</html>
